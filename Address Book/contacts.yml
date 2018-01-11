@@ -18,19 +18,3 @@
   first_name: Mau
   middle_name: ''
   last_name: ANk
-- !ruby/object:Contact
-  phone_numbers:
-  - !ruby/object:PhoneNumber
-    kind: Home
-    number: '9816324927'
-  addresses:
-  - !ruby/object:Address
-    kind: Home
-    street_1: Vill. Bari, post-office Boungta
-    street_2: teh. Dehra, Dist. Kangra
-    state: Himachal Pardesh
-    city: Dehra
-    postal_code: '177101'
-  first_name: Narender Singh
-  middle_name: ''
-  last_name: Manish Thankur
