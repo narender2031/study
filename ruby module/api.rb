@@ -1,13 +1,14 @@
-# require 'uri'
-# require 'net/http'
+require 'uri'
+require 'net/http'
 
-# url = URI("https://google.com")
+url = URI("https://google.com")
 
-# http = Net::HTTP::new(url.host, url.port)
-# request = Net::HTTP::Post.new(url)
-# request["accept"] = 'application/json'
-# request["authorizatiom"] = "token"
-# resposnse = http.request(request)
+http = Net::HTTP::new(url.host, url.port)
+request = Net::HTTP::Post.new(url)
+request["accept"] = 'application/json'
+request["authorizatiom"] = "token"
+resposnse = http.request(request)
+puts response
 
 # require 'uri'
 # require 'net/http'
